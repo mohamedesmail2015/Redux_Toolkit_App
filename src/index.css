@@ -1,13 +1,75 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color-body {
+  height: 100vh;
+  font-size: 20px;
+  background-color: #f8f8f8;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font {
+  font-family: "Almarai", sans-serif;
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+}
+
+.rectangle {
+  height: 500px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 4px 1px rgba(85, 85, 85, 0.25);
+}
+
+.dates-cont {
+  color: #555555;
+}
+
+.btn-style {
+  width: 200px;
+  border-radius: 8px;
+  color: white;
+  background: #224f61;
+}
+
+.img-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mohamed {
+  text-align: center;
+}
+.mohamed button {
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.main {
+  display: flex;
+}
+
+.Products {
+  color: blue;
+  text-align: center;
+  justify-content: center !important;
+}
+/* ***************** */
+
+.cards {
+  margin: 10px;
+  height: 400px;
+  text-align: center;
+  border: 1px solid #000;
+}
+.card-img {
+  width: 100%;
+  height: 150px;
 }
